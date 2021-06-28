@@ -1,0 +1,78 @@
+// Command to check git version
+git --version
+
+// Configure Name and Email
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+
+// Initialize a repository
+git init
+
+
+git status
+
+
+// Staging files
+git add <filename>
+git add <filename1> <filename2>
+git add .
+
+
+// Commit
+git commit -m "This is a commit message"
+
+
+// Push changes to the current branch
+git push
+
+
+// Check commit history
+git log
+
+
+// Go back to previous commit state
+git checkout <commit-hash>
+
+
+// Go to latest
+git checkout master/main
+
+
+
+// Checking all branches
+git branch
+
+
+// Creating new branch
+git branch <branch-name>
+
+
+// Changing branch
+git checkout <branch-name>
+
+
+// Creating and changing to a new branch
+git checkout -b <branch-name>
+
+
+// Merge from a branch to the current branch
+git merge <branch-name>
+
+
+// Delete a branch
+git branch -d <branch-name>
+
+
+
+
+
+
+
+
+
+
+
+git branch -M main
+git remote add origin https://github.com/A-dot-dot/AllImportantNotes.git
+git push -u origin main
